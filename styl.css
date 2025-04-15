@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+#kontener {
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #eee;
+}
+
+#kontent {
+    text-align: center;
+}
+
+#kontent h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+#kontent h3 span {
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+#kontent h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+#kontent h1 span {
+    color: crimson;
+}
+
+#kontent p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#btn {
+    display: inline;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+}
+
+#btn:hover {
+    background: crimson;
+}
+
+#regform {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;  
+}
+
+#regform form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+
+#regform form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#regform form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+#regform form select {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+#regform form option {
+    background: #fff;
+}
+
+#regform form input[type=submit] {
+    background: #fbd0d9;
+    color: crimson;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#regform form input[type=submit]:hover {
+    background: crimson;
+    color: #fff;
+}
+
+#regform form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+#regform form p a {
+    color: crimson;
+}
+
+#error-msg {
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#post {
+    border: 1px;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 10px;
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+    resize: none;
+    margin-top: 30px;
+}
+
+#plik {
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px;
+    border-color: #333;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+input::file-selector-button {
+    background-color: gray;
+    color: #fff;
+    border: 1px;
+    border-color: #333;
+    border-radius: 10px;
+}
+
+input::file-selector-button:hover {
+    background-color: crimson;
+}
+
+#addpost {
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px;
+    border-color: #333;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#addpost:hover {
+    background-color: crimson;
+}
+
+#posty {
+    border: 1px;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 10px;
+    padding: 5px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 39.5%;
+    margin-right: 49%;
+    margin-top: 10px;
+}
+
+#g {
+    color: crimson;
+}
+
+#e {
+    color: crimson;
+    display: inline;
+}
+
+#n {
+    height: 10px;
+}
+
+table {
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #333;
+    border-collapse: collapse;
+    margin-left: 5%;
+}
+
+th,td {
+    border: 1px;
+    border-style: solid;
+    border-color: #333;
+    border-collapse: collapse;
+    padding: 10px 100px 10px 100px;
+}
+
+th {
+    color: darkblue;
+}
+
+td {
+    color: firebrick;
+}
+
+#deletelink {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#updatelink {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+
+
