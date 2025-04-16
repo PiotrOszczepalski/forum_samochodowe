@@ -1,7 +1,8 @@
 APLIKACJA - FORUM SAMOCHODOWE - BY PIOTR OSZCZEPALSKI
 
 Aplikacja stworzona w ramach projektu z przedmiotu "Bazy Danych" w czwartej klasie technikum. Jest to forum samochodowe, gdzie użytkownicy mogą udostępniać posty ze zdjęciami i opisami swoich pojazdów.
-Administrator ma dostęp do swojego panelu, aby móc moderować forum.
+Administrator ma dostęp do swojego panelu, aby móc moderować forum. Projekt został napisany z użyciem języka PHP, bazy danych MySQL oraz technologii frontendowych: HTML i CSS.
+Dzięki temu możliwe było stworzenie dynamicznej, w pełni funkcjonalnej i estetycznej aplikacji webowej.
 
 START APLIKACJI
 
